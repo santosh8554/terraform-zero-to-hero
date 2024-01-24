@@ -121,12 +121,15 @@ Understand the concept of workspaces and their role in managing different enviro
 Learn how to create new workspaces and switch between them using terraform workspace commands. Understand their significance in environment management.
 
 create 
+
 terraform workspace new dev
 
 To switch dir
+
 terraform workspace select dev
 
 To show present dir
+
 terraform workspace show
 
 
